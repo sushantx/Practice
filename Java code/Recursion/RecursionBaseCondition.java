@@ -6,7 +6,7 @@ public class RecursionBaseCondition {
 
     private static void printName(int cnt) {
         if(cnt==3) return;
-        System.out.println("Sushant");
+        System.out.println(cnt);
         cnt++;
         printName(cnt);
     }
